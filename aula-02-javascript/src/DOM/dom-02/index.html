@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02 - DOM - Event</title>
+</head>
+    <style>
+        body{
+            background-color: rgba(0, 0, 0, 0.478);
+        }
+        main{
+            min-height: 100vh;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content{
+            border: 2px solid black;
+            width: 90%;
+            height: 180px;
+            text-align: center;
+        }
+    </style>
+<body>
+     <!-- Acessando o html pelo js e criando nosso primeiro evento -->
+     <main>
+        <div class="container">
+            <div class="content">
+                <h1>Primeiro Evento em JS</h1>
+                <button id="btn-01">Enviar</button>
+            </div>
+        </div>
+     </main>
+
+     <script src="./script.js"></script>
+</body>
+</html>
